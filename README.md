@@ -4,8 +4,9 @@ Visualizer for Open Trace Format (OTF) files.
 ## Description
 
 ## Key Features
-* Open Trace Format (OTF) files visualization
+* Open Trace Format (OTF) [1][3] files visualization
 * XML trace files visualization
+* based on vis3 [4]
 * Qt and C++
 * IDE Qt Creator
 
