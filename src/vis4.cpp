@@ -10,7 +10,7 @@ int main(int ac, char* av[])
     QApplication app(ac, av);
     app.setOrganizationName("Computer Systems Laboratory");
     app.setOrganizationDomain("lvk.cs.msu.su");
-    app.setApplicationName("Vis4");
+    app.setApplicationName("otf-vis");
 
     Trace_model::Ptr model(new OTF_trace_model("hello_world.otf"));
     //Trace_model::Ptr model(new OTF_trace_model("philosophers.otf"));

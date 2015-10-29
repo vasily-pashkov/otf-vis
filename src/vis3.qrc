@@ -1,0 +1,22 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+	<qresource>
+		<file alias="wizard.png">pics/wizard.png</file>
+		<file alias="stock_search.png">pics/stock_search.png</file>
+		<file alias="kruler.png">pics/kruler.png</file>
+		<file alias="viewmag+.png">pics/viewmag+.png</file>
+		<file alias="viewmag-.png">pics/viewmag-.png</file>
+		<file alias="start.png">pics/start.png</file>
+		<file alias="previous.png">pics/previous.png</file>
+		<file alias="fit.png">pics/fit.png</file>
+		<file alias="next.png">pics/next.png</file>
+		<file alias="finish.png">pics/finish.png</file>
+		<file alias="filter.png">pics/filter.png</file>
+		<file alias="editcopy.png">pics/editcopy.png</file>
+		<file alias="find.png">pics/find.png</file>
+		<file alias="link.png">pics/link.png</file>
+		<file alias="point.png">pics/point.png</file>
+		<file alias="printer.png">pics/printer.png</file>
+        <file alias="coloredit.png">pics/coloredit.png</file>
+	</qresource>
+</RCC>

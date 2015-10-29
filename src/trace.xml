@@ -1,0 +1,68 @@
+<trace max_time="400">
+   <component name="Root">
+	<component name="Component 1">
+	    <events>
+		<event time="60" letter="S" kind="Send"/>
+		<event time="80" letter="R" kind="Receive"/>
+		<event time="100" letter="S" kind="Send"/>
+	    </events>
+	    <groups>
+		<group time="60" target_time="60" target_component="Component 4"/>
+		<group time="100" target_time="200" target_component="Component 4"/>
+	    </groups>
+	</component>
+
+	<component name="Component 2"/>
+	<component name="Component 3">
+	    <component name="Component 3.1"/>
+	</component>
+	<component name="Component 4">
+	    <events>
+		<event time="60" letter="R" kind="Receive"/>
+		<event time="80" letter="S" kind="Send"/>
+		<event time="200" letter="R" kind="Receive"/>
+	    </events>
+	    <groups>
+		<group time="80" target_time="80" target_component="Component 1"/>
+	    </groups>
+	</component>
+	<component name="Component 5">
+	    <states>
+		<state begin="60" end="100" name="State 1"/>
+		<state begin="120" end="160" name="State 2"/>
+	    </states>
+	</component>
+	<component name="Component 6">
+	    <states>
+		<state begin="60" end="100" name="State 3"/>
+	    </states>
+	    <events>
+		<event time="120" letter="U" kind="Update"/>
+		<event time="140" letter="D" kind="Delay"/>
+	    </events>
+	</component>
+	<component name="Component 7">
+	    <events>
+		<event time="100" letter="U" kind="Update"/>
+		<event time="120" letter="U" kind="Update"/>
+		<event time="125" letter="U" kind="Update"/>
+		<event time="130" letter="U" kind="Update"/>
+		<event time="150" letter="D" subletter="F" kind="Delay"/>
+		<event time="170" letter="D" subletter="F" position="left_top" kind="Delay" priority="1"/>
+                <event time="190" letter="D" subletter="F" position="left_bottom" kind="Delay"/>
+		<event time="210" letter="S" kind="Stop"/>
+	    </events>
+	</component>
+	<component name="Component 8"/>
+	<component name="Component 9"/>
+	<component name="Component 10"/>
+	<component name="Component 11"/>
+	<component name="Component 12"/>
+	<component name="Component 13"/>
+	<component name="Component 14"/>
+	<component name="Component 15"/>
+	<component name="Component 16"/>
+	<component name="Component 17"/>
+	<component name="Component 18"/>
+   </component>
+</trace>
