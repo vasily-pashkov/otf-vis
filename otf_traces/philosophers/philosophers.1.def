@@ -1,0 +1,13 @@
+DTR3b9aca00
+DP1NM"Programme"
+DP2NM"Thread0"PT1
+DP3NM"Thread1"PT1
+DP4NM"Thread2"PT1
+DP5NM"Thread3"PT1
+DP6NM"Thread4"PT1
+DFG1NM"Thread State"
+DF2G1NM"Eat"
+DF0G1NM"Think"
+DF1G1NM"Hungry"
+DCG1NM"Semaphore"
+DCNT1G1NM"counter-name"P0U""

@@ -7,16 +7,16 @@ Visualizer for Open Trace Format (OTF) files.
 * Open Trace Format (OTF) [1][3] files visualization
 * XML trace files visualization
 * based on vis3 [4]
-* Qt and C++
+* Qt 5 and C++
 * IDE Qt Creator
 
 ## Building
 
 ```
 # Build prerequirements
-$ sudo apt-get upgrade
-$ sudo apt-get install
-$ sudo apt-get install
+$ sudo apt-get install libopen-trace-format-dev otf-trace libotf-trace-dev
+$ sudo apt-get install libxml2 libxml2-dev
+$ sudo apt-get install libboost ...
 ```
 
 To build otf-vis you must:
